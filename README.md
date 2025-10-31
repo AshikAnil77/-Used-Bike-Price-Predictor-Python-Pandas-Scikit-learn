@@ -23,13 +23,21 @@ Joblib: For saving and loading the trained model and preprocessors.
 📂 File Structure
 .
 ├── 📄 app.py                  # The main Streamlit application
+
 ├── 📄 train_model.py          # Script to train and save the models
+
 ├── 📄 bike_price_model.pkl    # Saved Random Forest model
+
 ├── 📄 encoder.pkl             # Saved OneHotEncoder
+
 ├── 📄 scaler.pkl              # Saved StandardScaler
+
 ├── 📄 your_data.csv           # (Add your dataset here)
+
 ├── 📄 requirements.txt        # List of Python dependencies
+
 └── 📄 README.md               # You are here
+
 🚀 How to Run
 Follow these steps to get the project running on your local machine.
 
@@ -39,12 +47,14 @@ Bash
 
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
 2. Create a virtual environment (Recommended):
 
 Bash
 
 python -m venv myenv
 source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+
 3. Install the required libraries:
 
 First, create a file named requirements.txt and paste this inside:
@@ -59,9 +69,11 @@ Then, install from the file:
 Bash
 
 pip install -r requirements.txt
+
 4. Run the Streamlit App:
 
 Bash
 
 streamlit run app.py
+
 5. Open your browser! Your browser should automatically open to the app (usually at http://localhost:8501).
